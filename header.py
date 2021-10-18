@@ -82,7 +82,7 @@ def getJSON(documentName, text, style):
 	if style == '1':
 		json = {
 		      "CellType" : "HeaderCell",
-		      "CompanyName" : documentName,
+		      "CompanyName" : companyName,
 		      "Date" : current_date,
 		      "Description" : description,
 		      "DetailDescription" : detailDescription,
@@ -96,7 +96,7 @@ def getJSON(documentName, text, style):
 
 	json = {
 	  "CellType" : "RegularCell",
-	  "CompanyName" : documentName,
+	  "CompanyName" : companyName,
 	  "Date" : current_date,
 	  "Description" : description,
 	  "DetailDescription" : detailDescription,
