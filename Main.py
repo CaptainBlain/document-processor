@@ -19,6 +19,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
 documentsPaths = []
+documentName = ""
 def getSubFoldersForDirecory(directory_path):
 	#Get any subfolders
 	subfolders = [f.path for f in os.scandir(directory_path) if f.is_dir() ]   
@@ -26,8 +27,7 @@ def getSubFoldersForDirecory(directory_path):
 	documents = [f for f in listdir(directory_path) if isfile(join(directory_path, f))]
 	#print(documents)
 	for doc in documents:
-		if '.doc' in doc:	
-			print(directory_path)		
+		if '.doc' in doc:		
 			documentsPaths.append(join(directory_path, doc))
 	for subFolder in subfolders:
 		#Ignore the folders we don't need
@@ -44,27 +44,31 @@ for path in documentsPaths:
 	menuName = ""
 	menuStyle = ""
 	arrayByForwardSlash = path.split('/', -1)
-	#print(arrayByForwardSlash)
+	documentName = arrayByForwardSlash[-1]
+
 	for item in arrayByForwardSlash:
 		if "Menu" in item:
 			menuName = item.strip()
-			print("")
-			#print(item.strip())
 
 	count = len(arrayByForwardSlash) - 2
+	
 	lastItem = arrayByForwardSlash[count]
+	#print(lastItem)
 	if "1." in lastItem:
+		menuStyle = "1"
+	if "Menu" in lastItem:
 		menuStyle = "1"
 
 	extractedText = textract.process(path)
 	text = extractedText.decode()	
-	print(lastItem)
-	if menuName not in jsonData.keys():		
-		jsonData[menuName] = getJSON(text, menuStyle)
+	#print(menuName)
+	if menuName not in jsonData.keys():	
+		#print(menuName)		
+		jsonData[menuName] = getJSON(documentName, text, menuStyle)
 	else:
 		currentData = jsonData[menuName]
-		print(currentData)
-		newData = [currentData, getJSON(text, menuStyle)]
+		#print(currentData)
+		newData = [currentData, getJSON(documentName, text, menuStyle)]
 		jsonData[menuName] = newData
 
 	#jsonData.append(getJSON(text))

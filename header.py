@@ -1,7 +1,9 @@
+#!/usr/bin/python3
 import os
 import textract
 import json
-
+import re
+from datetime import date
 
 def stripAndFind(fullString, toFind):
 	returnString = ""
@@ -16,8 +18,18 @@ def stripAndFind(fullString, toFind):
 			returnString = fullString.strip()
 	return returnString
 
-def getJSON(text, style):
+def getJSON(documentName, text, style):
 	
+	#company name
+	company = documentName.replace('.docx',' ')
+	company = company.replace('.doc',' ')
+
+	pattern = r'[0-9]'
+
+	# Match all digits in the string and replace them with an empty string
+	companyName = re.sub(pattern, '', company)
+
+	#
 	arrayByDoubleLineBreak = text.split('\n\n', -1)
 
 	firstLine = ""
@@ -42,6 +54,9 @@ def getJSON(text, style):
 	#Title tidy
 	firstLine = firstLine.replace('\n',' ')
 
+	#date
+	current_date = date.today().strftime('%d/%m/%Y')
+ 
 	#We should have the detailDescription
 	splitByFullStop = detailDescription.split('.')
 	#We need to grab the first sentence out fot the desc
@@ -67,9 +82,10 @@ def getJSON(text, style):
 	if style == '1':
 		json = {
 		      "CellType" : "HeaderCell",
-		      "CompanyName" : "",
+		      "CompanyName" : documentName,
+		      "Date" : current_date,
 		      "Description" : description,
-		      "DetailDescription" : text,
+		      "DetailDescription" : detailDescription,
 		      "Image" : "",
 		      "PhoneNumber" : phoneNumber,
 		      "SortOrder" : "1",
@@ -80,9 +96,10 @@ def getJSON(text, style):
 
 	json = {
 	  "CellType" : "RegularCell",
-	  "CompanyName" : "",
+	  "CompanyName" : documentName,
+	  "Date" : current_date,
 	  "Description" : description,
-	  "DetailDescription" : text,
+	  "DetailDescription" : detailDescription,
 	  "ThumbnailImage" : "",
 	  "PhoneNumber" : phoneNumber,
 	  "SortOrder" : "",
