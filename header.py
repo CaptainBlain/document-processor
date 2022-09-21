@@ -18,7 +18,7 @@ def stripAndFind(fullString, toFind):
 			returnString = fullString.strip()
 	return returnString
 
-def getJSON(documentName, text, style):
+def getJSON(documentName, text, imageUrl, style):
 	
 	#company name
 	company = documentName.replace('.docx',' ')
@@ -86,7 +86,7 @@ def getJSON(documentName, text, style):
 		      "Date" : current_date,
 		      "Description" : description,
 		      "DetailDescription" : detailDescription,
-		      "Image" : "",
+		      "Image" : imageUrl,
 		      "PhoneNumber" : phoneNumber,
 		      "SortOrder" : "1",
 		      "Title" : firstLine,
@@ -100,12 +100,15 @@ def getJSON(documentName, text, style):
 	  "Date" : current_date,
 	  "Description" : description,
 	  "DetailDescription" : detailDescription,
-	  "ThumbnailImage" : "",
+	  "Image" : imageUrl,
 	  "PhoneNumber" : phoneNumber,
 	  "SortOrder" : "",
 	  "Title" : firstLine,
 	  "WebsiteURL" : websiteURLString
 		}
+
+
+
 	return json
 
 	

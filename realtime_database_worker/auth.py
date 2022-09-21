@@ -4,8 +4,8 @@ import requests
 import json
 import random
 
-from helpers.Target import Target
-from helpers.Target import getTarget
+from realtime_database_worker.helpers.Target import Target
+from realtime_database_worker.helpers.Target import getTarget
 
 
 BASE_URL = "https://identitytoolkit.googleapis.com/v1/accounts"

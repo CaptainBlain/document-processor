@@ -2,8 +2,9 @@ import os
 import pathlib
 import sys
 
-from helpers.Target import Target
-from helpers.Target import getTarget
+from realtime_database_worker.helpers.Target import Target
+from realtime_database_worker.helpers.Target import getTarget
+
 
 SCOPES = ["https://www.googleapis.com/auth/firebase.database"]
 DATABASE_DIRECTORY = '/database/'

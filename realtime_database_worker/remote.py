@@ -52,9 +52,8 @@ def _get(enum):
 
 def _publish(enum):
   target = getTarget(enum)
-
+  
   idToken = getAuthIdTokenForNewUser(target)
-  #_auth(target)
 
   with open(getContentFileName(target), 'r', encoding='utf-8') as f:
     content = f.read()
@@ -75,8 +74,6 @@ def _publish(enum):
 def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--action')
-  parser.add_argument('--etag')
-  parser.add_argument('--version')
   parser.add_argument('--target', default='SP', const='SP', nargs='?', 
     choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN')
   args = parser.parse_args()
@@ -85,16 +82,10 @@ def main():
     _get(args.target)
   elif args.action and args.action == 'publish' and args.target:
     _publish(args.target)
-  elif args.action and args.action == 'versions' and args.target:
-    _listVersions(args.target)
-  elif args.action and args.action == 'rollback' and args.version and args.target:
-    _rollback(args.version, args.target)
   else:
     print('''Invalid command. Please use one of the following commands:
-    	python3 remote.py --action=get
-python3 remote.py --action=get --target SANDBOX
-python3 remote.py --action=publish --etag=<LATEST_ETAG>
-python3 remote.py --action=publish --target SANDBOX --etag=<LATEST_ETAG>
+python3 remote.py --action=get --target BAIT
+python3 remote.py --action=publish --target BAIT
 ''')
 
 if __name__ == '__main__':
