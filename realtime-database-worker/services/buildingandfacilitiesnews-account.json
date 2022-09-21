@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "buildingandfacilitiesnews",
+  "private_key_id": "cc541e0960a5148b7105b63b3c3fb982c96e4f6d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDW5up+K33boUyb\nsqIr8A1zrgh4gbf3+FVMOQMn62PvNsye9z9bwaNWBvC1DgoAdM+Lyn4kOjHJPcaw\nnCRceHGQ5ZLQ77YkBytzKTilsdKEiFddYZ796/I2wW/lx5akQzeWJJVr3OkBubur\nUlk/ga9doVSg9UxqnkQl27m5s5C4GimjD7Z2oqyA8DlMMINRgkj3kV60U51CgpJy\ndguL5zqne2zKgZ+gzcSWtxRwHC5IX5D4BtGVcIUaVy42J/X948Hbbooddpv19MZO\nQe+z0nC+yu0J4SQ4xfPoxVeX9oEZWIc8sZ0mzF89DfgrM851ssuSLT54T93RHexz\nOY7+23Y5AgMBAAECggEAAlY/KowShvbkEbVe6hdm2LaFxQ8JZHBA4olO2CTz0JV0\notiRdHql6g49Q9rD5RQKxbxipBuLOw2plstmjH2Kzpvl0tEogTp1ZdUxloED3F5s\nhMlw+dXnq7dtc2mONnm8paypgKNwV+J11fvD7gWHq1RRH/GgQ8Xg0Ss92R/Iwm0R\nTYPwiFf80KOFZYmZBJQC/15VfUO5Y4Eg+kkhnniZQHbWDkplQ7pkXfPO9BH5HOlC\nioUQWvEf3tsx2D5XS5/nnmDb/hqz+7SjPk3prdzFw3QuEqyHTZUr3a54Vtg/JkXU\nP29hg6wFEL3GXDP5rLT4kfQtPOXwdREvQ/tmrCQSAQKBgQDyltigCC46JigBhFB8\n9PAiLpi3ZCVxTKiF1mKiL64KMyvTEeInvh8u4YFsZ1tGu+VRetSd2wexZSVV28e8\nLOH9x7dXJeEC2PIor+rhwY9kb9fkQeZR9MGMH6ckvXtWkPWk0Z22/Al8t/+la8qD\nqUgimNZSkNRD6UTzjPoCIQJHmQKBgQDiyDyUDf+lI1emwcU+VfmEpJJUHqbfXZk3\nr6x4lw5sLlowqlTpWk3NYc8TH6ZgZ/F24x2IQtu5IgNf292jMsLQ6DLgAG9AHvFF\nocGgliQM8g2L8mP1qw+ejwtFx1oe2e+CacY1DjEEux1+Vx5hTb3HS3N4VIAkrgXf\n0HS35blHoQKBgCbaAdefd8fYVI/poPpiQBM5Yzv7zgNXQ6Yrr6BKApWfnGUxeAbl\nbBkWBKRX6UZq0U87XNHrQlAm4tPdXx/EEG2UjshmSKMsG5xokDWXyl9LikgERd7a\nVCUc7Kf1sMssbCr5Z0jnFJ3k2gykNsrfUa44zBptF5HIykI3UdMFdlgBAoGADY3k\nOQEhL3COU5QvQsuGr0vaxxZR6PXCK5bfWxHENekLUO9NRek0zzqyUrVIj2iHAREP\n+c3tLgJ/ayJL++4TwMKwD71W6OEwkHXbicqPewqYjq29FbjUpShthw0kMMXbz9Kc\nmx0vBtZcK+nvEefAmQHEdAOw6QBRr4/Y+gjL6yECgYBpuvy65VziuJVdzz/1FYju\nfMkt64PgBIahVU9BrkPuzZuY7s7qnGk45oWyhJwGI5fKj2l9kxHmW6jjWiLyrzoA\n5dsZJvj5Jk6/IM35iklQEUGR/bj9X9swvRr6YLgRX9Ll1+M21YJlchmFGAfwreVz\n2tw5C91vR9R2tijyZk9XXw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-p4jpq@buildingandfacilitiesnews.iam.gserviceaccount.com",
+  "client_id": "103856277558797842347",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p4jpq%40buildingandfacilitiesnews.iam.gserviceaccount.com"
+}

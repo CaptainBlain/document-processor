@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "building-solutions-uk",
+  "private_key_id": "6b007f1775bb177e35f30e346f4d19e5727d4bc3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUdpB3hgAJ49h7\nwdAhFoVG+FPX780AbaIfgyLAOpZHaYD4X7BlcT5jn5fvmb893HC69PnkGFl297NP\nEttSofYewWs5W1yDXmPPrizGBSGEa8eqtMefkrrcD0jD81AnAAFOK6I06RGrYQ3w\nBeW8hUUZCJOxqY7yJLmm1ZOFa5QMDBP/RTljIHBoSVt9weMdqxY8WkzMJ48L6YWT\nH3LQ7T045/72gOcVHG1SBrr7Y4YNbQxnplGucxWFwnD35Z74lG3b8UJQ8gjgeAIK\nCuPKBX+ieXrvQ6sd3knQxpDRah2RkK4JBNsui5mw3+pz2aFWWuzappFBCYPNjyKU\nLgkTWM7zAgMBAAECggEACbxkfV2ncHc/ldg5TIgxfkw7MgN785Tn33rNDl2rl5p8\nPaV2OgfOR0FqdHZ+qXvfBz+E7fthqiPKqd51ghwINmZASXC9f2BFbEsRI9fbWSvu\niozd3ZrwiMyt1cY3ZOTJVTGHAtav/RhQS7CcKPSQczJjQOUXYag7gQDQ0Zsu6GhV\n5NpKsVDSg7wjC7wzTGBfwrpE/GcO4os7LaR6W/0X4ez2oQsH7OT/RSSsVsNlTij2\nLg3npFyQ3xfakwoiyvs1rtq/HiePGVAc68wff9cKDU1TrFmVTtZJTtfNCfQTn0kE\nyMNquWebjR5D6tgrYAkEWnEfGYDS333wgBQwd7WCAQKBgQDx0UuNJ9beRrvShKla\nZX0Dr0ex4z98UWTuqqgJPgGg0IEiTAsFT/p46I9CUsx4cSQ4ELfU4MhTNP1txuMK\nKCNGuOJcaUk3qxRetFEKseSpr3ZILGQP7eUn3CoJoiuZIOWGMkJOClCcEvITNjRy\nXKX9sdTAfm9RGfxyDu4XxPx48wKBgQDg7IkBb/dsxoADpiz5s/W+SyYJXtnl8/Kl\n6/K3fTrertNxcYEYFzM+vxWSIzTySQWHfcf4HRT3c4BSCVNZde1zvKFOTtwgVuoW\n53Iayqco+cHN9cjVMCZbKDBHcYZ4cmAp+W/WgjYbbs4c7p4Ev5DX2VFveQBQ4Q1X\nVxaqqYfSAQKBgEClIv1pWRey8SMmM9/mobUKdrAngCFL4R+sn59Y5DaJhvwUOB4D\nc4I/KY0hdWf9VyFl1r8iGGumDtn6AVgFwuh1JI5v1xL6uUdYDRI+3FJAhe5lb5qS\njmBJizNoFx+om7N0XCVgvIv8xJo+M2cfPYDEuYt8QWX8/G/BbgUMtDHhAoGAGzA8\nd3IDZKCyBL7nnN+GCxSmameOy18rq6bT1h5LKXPUl1fzFOhpB2KtxtZ+pfLxuikY\nLQPG7wqFLmV2L9AzfdQFY6PgtAANl+suPdLVVfyq0qytNCf32vkGrPwqFxEsUqaW\nQEXJKJPCUnj9nPFTHuRkFad4xE4QAMjEMqj/hAECgYAMW6iG0/0FPc33i2/bE7cY\n6rF7+ptzgCN13NpCC9Y4p9eeL4op8OYYTrwoa6F1RwN3sIsfd1pvhWZm3//mLJNQ\nR1ALsWwL200PuDor+Nm1eHm7hzmb8fOnYKlTXTlfto16Zm7TJARUgtJyRWnSfEOE\nCniw5UpcGu4eCyDA/JEMYQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-h8jof@building-solutions-uk.iam.gserviceaccount.com",
+  "client_id": "106447082350810240120",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-h8jof%40building-solutions-uk.iam.gserviceaccount.com"
+}

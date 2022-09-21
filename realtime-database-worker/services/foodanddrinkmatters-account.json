@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "foodanddrinkmatters",
+  "private_key_id": "87f21f721eacfa4a8ab4d5549cd95c4f30b0f9eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0Dy+FHsOirUE2\neYSH6DUPf85sYbWD7Ekq6HeyalkTXW0AibqRPagRkImMnhyVP8ZZYlMSJtzB782v\nRQaB/ZP5PpRBpbWrzg8Ppv61sLSEIuB/LcAFJMWF5yA8hvj5SL4InOm+mVorHvGl\n6CF+gl4q94ieH00YIJ7RxFXjuHRjNU4jalgApcSHpkvWzsHY7/kiqxKydJbB3TDx\nmYiUArUO0R4mNtawDxXvIw/w8nM7pzS5MA7s3ykXx1OeaTFD0s1vvFXOcwpp+3uy\ntZZt8PhrKdza70y6Qg38FeT3hyYUgPJb9WlVYXOfNXsruM6bqINHDu5M91w4IOV3\nqjUMWcQzAgMBAAECggEAAvvVb8FIwKNaV0rANXhVmMIna4ha96qss7dSdHRqsXV0\n3vNpUgrRhCj+/oOIObjq0oRcmApo0hXlNKhSKUlIcHLnBgd28Tfi7AF6awxYkW/6\nhGD/s5YeZ8+iqx4ZdhgMfhwLi4sDAX/rxTIJjA0g/llHvEcMgf/YYeV8/t8JnrM2\nT7jHX/Fjeis3AJeXDT71ThZn8tLG5ssRe+8Xa8RsMEcmVLt7eSmBNbQII/T67kpY\nxyMX+4fWayIBLpAzU/2ElSI89QjCe65n94fJlPYZ7g/0edqBD6Zx5EY8gT6uWseF\ntMgnktXZ6SxiDypVd4P9x5N9bXUcy2tW2mX6Jc5hcQKBgQDdzh+3f48vo4g7p+oS\neVP7EFAFbGH2GgKrf/HISlH0wWqhBEbhGRliJY0EDmZyrTg4F4fJejLEcKZWkITv\nRNkwbZN5AfAwrnDqup8+m46DrSmx8BUkeSssBr83XymfBBBspRRbWO9lFOmh02uK\n5WyHoiH5jK2eUWxFLm+tRCcL/QKBgQDP0X+kk8Q2tFZcmreCY2DuRGXjBkFdz3aB\n6FODRIqS4KZ2j1vfwDeeSYd32cvpJ9OgWRVih+5oqsz+zmQMNIWAGJiTbGatT9cG\nYFYy3zBFjuHeHYnLV108x5PIlySTcwCsTU5ZL3+Nl22A0V+AkKVIl+Wly3nFUbG7\nsTl1ckTP7wKBgQC3lNpVg4Oct2qTjbhEEB29SFQjGQC/s+mPzvbsgu7weIHrwWF0\n/9QtkszzlYOf2NUWQAuIa9bHFkHmlfkhHMfyuE7+Med+M3OMJGiXZiL/w3wmJYMq\nTAu6hd8QUnhdf/ykH8IIlUSXUkbJRPbW4GsCm+Qo6xHsXpIRdIzESQtUdQKBgQCr\n5n0Q43HQVkeBfjEBV7bcIBOvQINdV7iNKGG8GTwO1mibdWXnpRXchrHZv3xeNiVl\nY4q+3/Wi+nVq58n2FpO/K5k5iNc90ObqTVG/7sH9J31Jv2E1o+Rp3CQwLmWA2gXa\ngG+ochOuSW24unem3v75FzxMcg0d3L+Jo8UFkym8XQKBgGnuzSyL6h5MpIKXlWFm\n1Vu/BQT4JfV0hveIq4JQvCu5z/XmmxRbAnP23cNLGsfknBblzrV9DDisvHyA2BYM\nEtBR4gnm3V032VMKajapur0HZ/Dy39ylBLLN6X6taFKR2K8fQU9AbdYI0OGGpgjG\nPnHihGqXn2ohpI+WDZi6FT1r\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-7kdqe@foodanddrinkmatters.iam.gserviceaccount.com",
+  "client_id": "108957369942796493107",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-7kdqe%40foodanddrinkmatters.iam.gserviceaccount.com"
+}

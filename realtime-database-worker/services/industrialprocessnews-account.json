@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "industrialprocessnews",
+  "private_key_id": "aa6c48484eeb7691addca2dd2b72216857b08e2d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCkIPEYCxYbv39X\nVQVggGga680ngTeFnmHsr1cRHZcgsNpqwD9Fi2ptodznfaOeI3re1i5S68UaYwOk\nFjXe1U9JCkh7pJu9O4eRKBt77WKkLwT41F+gQoa3UpPdcBpHIAzuR2qrzdY4mQ/M\n825pMLZXNvYP7N/0ddAasJdnktOI+jAU64ApYOVTvOv4J7Jx5EjNpI3r76zmr/p2\nOAmV8ROoozx5/u+JZEQuAbJ1Zv6ulNdz6e75RjQPFEpYgWLXd7tdXg0ePbpAsmNL\nLiITJtemhCIigyQ4a382WYnyU7/SRvksrkRqJmU32IuYtQJ/WXFr+6XUMFYP6/+H\nNww0PKJfAgMBAAECggEAAQuqrYYIjoWySHqkraAzyZQd+vXyRhojso/NZLEFEPK/\neXWfEZDZTTh+QUVGIRBFzJydr+6Lk2b1E3sGvdQrDKKRoqQCT/rMmsqgHjJ9ceFQ\nzUsBDvLNi+ZtRbhcmn5kRrJSxiRqDHNBLAOS/P2P889IUwKlzJdhi4H7fO/tBA7d\nWfQDDs2M/xPnIyQkJOHZeYF0/R+jTgxhTCfesbBRwHGosWXgz5/7DoA/Yfw6n9+h\ntaAYvqFroAkCfwOMgAKM5Pa3aP0aQ0fnu6h6OuQ6HGuF3rxH5fk+jiECXGjAzvC5\n8Od7BvIl3vmo5cEk9ySbjWVFL+nZPFcbBlKvQIW9UQKBgQDOA6PqU9grus6aDIMJ\nnH3HnSSBeDlvCIbArnHe4GgYi3rJHpO+C8IgyAm+N4Ha36/tqWEv+hlhKHAdL3C5\nuLYFY1aWG2P/mAqRVi6daog+LBxQJYoFkdx2BilnWhGw3hTC7jtRbCi4cHn70Cxb\n8XLFTnEx32M8dWskXW4nEc0WbwKBgQDL85/gJEKjwDxeKC046kCTXeq+h4/2UaGA\nlHixQ8h7GxEQ6GexVeefRUioXz6Yjgwa/ndZrw4CJH04fVlQLIWtsK/bwJ610ysH\n4KJiZrrN0Hlsp/S+1ul2Gq/870I7SlNlYNW2VULE7HKRXm3XvRIWf8Hk+WDIjH9n\n7i23U36rEQKBgQCKr+quOkmBjt282QVx9/a45bIIsr2/YLcOiaFA0ENjmqpLMJl3\nTAUg+mmMs2NozENsNCWoHa7uOEHZc/FoJc/rqqdEoCXekCU1GBaDhI85g4p/7fWP\nsFUA4z8GQ507OxYw8B3gv3ZeS+Hiwo7KSq3f4+HSGDd/IPDC517bUGGHYwKBgQCz\nY3oAAGTM+00d1GDSatiZxkWviDVMBsjy+6Sc5m30Of5szL5H8LNmF96smfnI3Ugw\nhhocPCkqIUYy5a4lIsQB3iMQOwBeFXsH1sF9o7YzSWdD9wcCxK1cQGUDKL8sv1dT\nGDVhxuSPqRmsW05qL9c1CvJUoDRMsadulsSHN112wQKBgQC2KCBYdyKkNSTG8YEh\n9vWeWcerCTmQqaOn22oi5fJPuXJFvQPJjO4IMneoSry0t3jgrbVcLoEejNJctSHD\nE16IfI/c7TGYztQ7+//HKZ1jCSzqz3ljrZ73jaV84SbT4tB2smMgtgNmJGIx+YU3\nkmrP+KqZz/ofLz14kIv9H9FviA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-mxvz1@industrialprocessnews.iam.gserviceaccount.com",
+  "client_id": "116515995065715699483",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-mxvz1%40industrialprocessnews.iam.gserviceaccount.com"
+}

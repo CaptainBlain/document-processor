@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "buildingandconstructionreview",
+  "private_key_id": "7b16e677ec32a4a761ef60ce661541503aee3c70",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCXNrWaNjzoE9ld\nG1apKoLdRitLtNDCXRtCp1LgxaAc7AKWEZBCnLLBuLr4ozCWpGWH5s3iX2T4unAT\naxB3gJuUoybPvqucLwFG5JiQk+4CHmYeuWY1IlYBP7ybl9MVSBNDtzAuRIZBLc9n\no6Yi6WdYXXEWlEwN7H4UbetnuIfW1xd25LKHjic2ERm0dvMxQbw4hKiRucrqZPQB\niFuJO1bLC6uKH3Hdu9ImCfBfmruvNcxrhJMJWtqkOgz5qtOlQYjhIw6bluVdU/S9\nN58C/5b1T1Ps1Y4QmviiRwh46b84ge0d8IKzGM/koCZ8GGtbG7aCin1YwzuLlGsV\nNcWNy74JAgMBAAECggEAIPd8gDJy9OXe7b2YFyl9fmBd8BNrr/Q8jTuNhhOP5L5P\nkggiO2OOVU3A9ZQec7lDqW1YVZIWoWOEK7ebz3HqeW1YeNJI97QHwzzzRhH6Qdv+\nx5QEBHGH7p3GsOVYz7r2+Dxn9K5b1rn2DdJP1iysq0cz8IhETITSuAF+4Q4KD3xf\nSRT/c/k4BkJN12n4E6peRhC/lQjBck4XNeIxsmx+21hKu04F0hfJ8HB00yGPsbQu\nPNT2VhwdHnNlzT/uiGKcmiBMxVOZytp+a1dUa1yc5le34Rg0qsHNTd2JLs5n7JLU\nv5I3BFxyIFTPUnl9GcCRKooFkC48pSCN6HJttNEZAQKBgQDUFiC6zPnQJywRdf7a\nv8PDQgjvcFKDJT/bRkYRc3A5+BuR1AXBmGb/x3kwXwaVutua5Z4ZYQLwr4C6JQVp\nBOTTt1g7mgQd81Vd/H8ro325JbgHAmN0K9D9OU6GZt2ph0MLIkSSLjkqQh6UHd8Y\nDgfwzD2Lg/2iqwDhPu68BHMGtQKBgQC2hfTWBvdQeVo1XUo8m019ZgRdk+x3u7Fl\nfSs4OoUkIxQczOCeyBj6WznLHkdE21edS1yHODW959B3zM2gX0RAQjcQQOvzTYl1\nrkU2Q2UNDyZh+Mcj38y0UiEW6381B6Dm0EJTTcUoIReCLw0vaKPGFiLNPaBi7Bft\ncDco8Nt6hQKBgAiHy1E4JWQl7zPUlyedRvZ3lXxr/CWiPetH7FGPXxg1zoYTDRg4\nVQw8rbcwW0dyeJrGWZGTwVaE+JyEGK+crseFPFtJWpkJzIk3OrY6oTftOHWvtuhZ\nStKkl2/4eznyYtPz0OZATbRRbIFwoiSJi/A3htIxwOXmEub8bQXK+AVxAoGAbWNY\n+dBQ9hTUgHj5ndsBlO7IHQEjThrZ1VYvydIgqyiuzBfpYp/PgHOd7mKmGdlO6AEb\nYhrI8ph0sue2MLAHqm9EquQNxNIqWLHp3vyDGlGDEmJTjud4unUiSac3pKN+xfX4\nWg6Y41T5zta+EzSmOnhXwSN29PJD4NRI6qt3DjUCgYEA0Vs8V0xZGpaqr+sf78Um\nOHc6wzMrosdQBF9U73Bagg9vReEOz00Sa3F4dEDXZI5G4j66oPEQSBYLTXibG2A/\ni7kwDjQC8nOUWzqFGEZkCyEd2aCkLM7py0DzhAYvPzRal+IRG/imWWjdCtIFtprQ\nTSwHgGniD8ch/qmKf/xpFgE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-896dd@buildingandconstructionreview.iam.gserviceaccount.com",
+  "client_id": "108157665575572618238",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-896dd%40buildingandconstructionreview.iam.gserviceaccount.com"
+}
