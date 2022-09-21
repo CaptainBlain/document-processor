@@ -2,11 +2,24 @@
   "AppStyle" : "1",
   "MenuGroups" : [ {
     "MenuStyle" : "2",
-    "Menus" : [ {
+    "Menus" : [ 
+      {
       "CellType" : "IssueHeaderCell",
       "Image" : "https://firebasestorage.googleapis.com/v0/b/businessandindustrytoday.appspot.com/o/2017%2FJan01%2FBAIT%20Cover%20Fan.jpg?alt=media&token=a2d4abba-bbdc-461b-bfe4-7e6073db3fc6",
       "SortOrder" : "1",
       "Title" : ""
+    },
+    {
+        "CellType": "RegularCell",
+        "CompanyName": " Impact Air Systems ",
+        "Date": "21/09/2022",
+        "Description": "The hot topic of plastics recycling is not going away any time soon, and rightly so",
+        "DetailDescription": "The hot topic of plastics recycling is not going away any time soon, and\nrightly so. It's everybody's responsibility to make sure plastics are\nsorted, collected, recovered, and recycled, but the bulk of the work\ntypically still falls to the waste operator.Utilising air-based technology to conduct waste sorting tasks is in huge\ndemand due to its cost-effective and efficient technique which is why it is\nbeing selected for use in many recycling facilities around the world,\nsaving thousands of tonnes of recyclable plastics, and other materials,\nending in landfill.Air-based material recovery solutions from industry experts, Impact Air\nSystems, are leading the way with various options to suit a wide range of\nplastic applications. The Impact Film Vacuum System and Airlift solution,\nremoves plastic bags, films from the waste stream, and bales them with a\nscrew compactor system. Zigzag separation provides an efficient and\neffective solution to remove dust, debris, and fibres from rigid WEEE\nplastic, granules, and flakes to provide a more valuable product for\nrecycling. Impact\u2019s Pneumatic Conveying System seamlessly transports\nplastic bottles and containers through the facility via a ductwork system\nto external storage containers or bunkers.Impact\u2019s solutions ensure higher quality material streams along with\nincreased revenue from recovered recyclable materials. They also greatly\nassist the operator in achieving zero waste targets while encouraging the\ncircularity of plastics aiding the transition towards a circular economy.Impact Air Systems continues to provide support to the recycling industry\nwith air-based technology solutions to enhance the operations of any waste\nmanagement facilities or waste sorting centres, large or small.www.impactairsystems.com\n",
+        "Image": "https://storage.googleapis.com/businessandindustrytoday.appspot.com/2022/September/ImpactAirSystems_437_02.jpg",
+        "PhoneNumber": "",
+        "SortOrder": "1",
+        "Title": " Plastics recovery success by Impact Air Systems",
+        "WebsiteURL": "http://www.impactairsystems.com"
     }, {
       "CellType" : "RegularCell",
       "CompanyName" : " DMN Westinghouse APP ",
@@ -628,15 +641,38 @@
     "SortOrder" : "2",
     "Title" : "Building News"
   }, {
-    "Menus" : [ {
-      "CellType" : "HeaderCell",
+    "Menus" : [  {
+            "CellType": "HeaderCell",
+            "CompanyName": " Amirose London P ",
+            "Date": "21/09/2022",
+            "Description": "In this issue of Business and Industry Today, we are pleased to announce AmiRose London Ltd as our Cosmetics & Skincare Company of the Month",
+            "DetailDescription": "In this issue of Business and Industry Today, we are pleased to announce AmiRose London Ltd as our Cosmetics & Skincare Company of the Month.\u00a0Founded in 2010 by Jack Gordon, AmiRose London Ltd specialise in producing niche type skincare accessories and products. The company carries a number of ranges that are available in the UK, and all products are also available for export and private label.\u00a0\u00a0With a team of seven staff based in Ilford, AmiRose London Ltd import and distribute beauty skincare cosmetics. As well as developing its own unique brands, the company also distribute other labelled brands, and over the years has supplied major supermarkets such as Tesco, Asda, Sainsbury\u2019s and Waitrose and cosmetic outlets such as Boots, Superdrug, Holland & Barrett, Lloyds, plus pharmacies nationwide.\u00a0\u00a0In such a crowded marketplace, AmiRose London Ltd work hard to make its products stand out, and Jack commented, \u201cas a smaller company, we know that we have to be a little different, and more niche. From the outset, we aimed to specialise in developing products that customers could not find elsewhere.\u201d\u00a0\u00a0\u00a0One of the first items that AmiRose London Ltd developed was eye pads that actually looked and smelled like real cucumber slices. Many other companies were offering eye pads to soothe tired eyes, but AmiRose made its product stand out from the rest by including a cucumber fragrance & printed image that the customer could enjoy upon opening the box. This, in addition to the unique and unusual appearance of the pads ensured that the company had its own place in the cosmetic sector.\u00a0\u00a0\u00a0These proved so popular with clients, that AmiRose London Ltd continued to develop such products in different ways. The company expanded this idea, and as well as the eye pads, these unique products have been developed into face masks too. If required, masks and pads can have bespoke logos added to them including company branding or pictures to make them especially distinctive.\u00a0\u00a0\u00a0In addition to this, the fragrance infused pads and masks have continued to develop, and customers can purchase products that smell of Watermelon, Green Tea or even Oranges among other things, It is these innovations that have ensure AmiRose London Ltd remain leaders in innovation\u00a0\u00a0It is not just skincare that you get from Amirose, it is spotting a gap in the market that people are looking for and we found that Snoring is a major problem in over 70% relationships. We have recently developed a nasal dilater snore-relief product called Snore Stop. Made from medical grade silicone and with strategically placed magnets to help keep the device in place, this is very simple to use. Once inserted the airways are much clearer, and each dilator comes with a hygienic carry case for storage or travel, and every box gives a 28-day supply.\u00a0\u00a0Recently, AmiRose London Ltd has been producing more products for the men\u2019s hair and skin care market, including products for thinning hair. These are fibres that when shaken or sprayed on will immediately cover a thin or bald spot on the head. This will remain in place until washed out - results have to be seen to be believed.\u00a0\u00a0As it looks to the future, the company is developing a range of biodegradable hair clips and brushes. Understanding that both the company and its customers are looking for more sustainable products, AmiRose London Ltd is launching these new products soon and is hoping for them to slot into the market very successfully.\u00a0In conclusion, Jack mentioned, \u201calthough COVID-19 was a tough time, we battled through it thanks to improving our online presence, and we spent time developing new products. We hope that customers will benefit from these as we move into the future.\u201d\u00a0\u00a0For more information:\u00a0\u00a0T 020 8559 8244jack@amirose.comwww.amirose.com",
+            "Image": "https://storage.googleapis.com/businessandindustrytoday.appspot.com/2022/September/AmiroseLondon_372_03.jpg",
+            "PhoneNumber": "",
+            "SortOrder": "49",
+            "Title": "High quality skincare products and accessories\u00a0",
+            "WebsiteURL": "http://www.amirose.com"
+        },
+        {
+            "CellType": "RegularCell",
+            "CompanyName": "White Label World Expo ",
+            "Date": "21/09/2022",
+            "Description": "https://www",
+            "DetailDescription": "https://www.whitelabelworldexpo.de/tracker.asp?code=ptnBusinessandIndustryToday_________________________________________________________________________White Label World Expo Frankfurt is Europe\u2019s leading online retail sourcing show with the most innovative and progressive products, services and technologies in the white label marketplace. Taking place on the 12th & 13th of October 2022, the Messe in Frankfurt, Germany, will be transformed into the ultimate destination for any forward-thinking online seller! Get your FREE ticket now!White Label World Expo Frankfurt will bring you an exclusive platform with the world\u2019s top suppliers in an exciting hub for the international white label industry! Do you want to scale your online presence?! Do you want to be the next successful online seller? Register for your FREE ticket and find the solutions to grow your profits!This year at White Label World Expo Frankfurt you will gain in depth insights from our incredible line-up of 200 inspirational speakers, who will share their tips, tricks, triumphs, helping you to stand out from the competition and boost your revenue. Hear from the likes of Gucci, Meta, QVC International, L'Oreal, and many more - you cannot miss out on this opportunity to hear from industry experts!Not to mention unmissable masterclasses, live innovation awards and unlimited networking opportunities! Appealing to all online sellers, retailers and ecommerce business owners, we have everything you need to kickstart your career in the dynamic industry!With tickets going from only \u00a330, their airline partner Lufthansa, are offering you discounted flights so that you can travel internationally to see them at a discounted price!What's stopping you now? Simply click this link here!Secure your FREE ticket via the website!",
+            "Image": "https://storage.googleapis.com/businessandindustrytoday.appspot.com/2022/September/WhiteLabelWorldExpo_973_01.jpg",
+            "PhoneNumber": "",
+            "SortOrder": "50",
+            "Title": "Please hyperlink the highlighted words with the following tracking link:",
+            "WebsiteURL": "http://"
+        },{
+      "CellType" : "RegularCell",
       "CompanyName" : "Challenge Coins UK P ",
       "Date" : "1/08/2022",
       "Description" : "In this issue of Business and Industry Today, we are pleased to announce Challenge Coins UK as our Challenge Coins Company of the Month",
       "DetailDescription" : "In this issue of Business and Industry Today, we are pleased to announce Challenge Coins UK as our Challenge Coins Company of the Month.Established and run by former serviceman Tom Newey, Challenge Coins UK stems from the United States Army tradition where a ‘Commanders Coin’ is formally presented to military personnel in recognition of excellence in competitions or service. Tom’s career in the British Armed Forces began upon completion of basic training at ATR Bassingbourn before joining the Royal Electrical and Mechanical Engineers and beginning training as an Aircraft Technician at Arborfield. Once trained Tom was posted to 3 Regiment Army Air Corps at Wattisham Airfield, an Apache helicopter unit. After spending long periods of time on exercise in America, Tom was given his first Challenge Coin whilst on exercise in Southern California by a US Navy Blue Angels display team technician. After swapping some patches for the coin, Tom felt his unit needed a coin to swap with the Americans. An initial batch of coins were made and sold in under two weeks, and Challenge Coins UK was born. A huge benefit to Challenge Coins UK’s service is that by having experienced the forces first hand, the company really understands how important recognition is, not just in the armed forces, but through any form of service. Based in Northwich, Cheshire, Challenge Coins UK has supplied over 180,000 coins to units throughout the Armed Forces and Emergency Services in the UK and around the world including SQN Army Air Corps, Irish National Police, South Wales Police, Cervus Defence, JTAC, Warfare Training Group, and many more. Proudly veteran owned, we asked Tom what the benefits of their service are, he answered, “we like to think we are setting the standard of challenge coins in the UK. The overall quality of the end product and our customer service is second to none. Our efficient, fast and reliable service means that we can have an enquiry that comes in at 12pm on a Monday and by 12pm on a Tuesday the order can be fully invoiced and placed into production. The coin itself is made to the highest quality, and it resembles something far greater than just a gift card so to speak. A coin lasts forever, it’s like a medal, there’s a lot of pride that goes into receiving such a gift. Also it’s a great way for a company to look back on and remember the milestones it has achieved over the years by marking them with a custom-made Challenge Coin.”A Challenge Coin has become increasingly more popular now within the corporate world, as the concept and tradition has evolved from the military to large companies who are now using the idea and product to honour members of staff for their services, mark senior leadership or company milestones. “We had a large influx of corporate customers throughout COVID-19 who wanted to show their appreciation to their staff by commending them and we received orders of up to 10,000 Challenge Coins. It put us in a really healthy position going forward and also increased our brand awareness. We are vastly merging into the corporate sector as the concept of Challenge Coins is quickly building momentum,” mentioned Tom.If you’re a business, military unit or even involved in the education sector looking to commend a person, unit or occasion, see below for more information on how Challenge Coins UK can help you.T 0333 335 1012sales@challengecoinsuk.comwww.challengecoinsuk.com",
       "Image" : "https://firebasestorage.googleapis.com/v0/b/businessandindustrytoday.appspot.com/o/2022%2F8.aug%2FChallengeCoins_371_02.jpg?alt=media&token=3bb75320-12b5-4963-8b13-79b4e049fa52",
       "PhoneNumber" : "",
-      "SortOrder" : "1",
+      "SortOrder" : "51",
       "Title" : "Custom Challenge Coins for the Military and Corporate industries",
       "WebsiteURL" : "http://www.challengecoinsuk.com"
     }, {
@@ -2204,6 +2240,13 @@
     "Title" : "Technology News"
   }, {
     "Menus" : [ {
+    "CellType": "PDFCell",
+    "Description": "The team at Business and Industry today has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "35",
+    "ThumbnailImage": "https://storage.googleapis.com/businessandindustrytoday.appspot.com/2022/September/372SS.png",
+    "Title": "Business and Industry Today Issue 372",
+    "pdfLink": "https://storage.googleapis.com/businessandindustrytoday.appspot.com/2022/September/372.pdf"
+},{
       "CellType" : "PDFCell",
       "Description" : "The team at Business and Industry today has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
       "SortOrder" : "36",

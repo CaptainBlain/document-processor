@@ -62,7 +62,7 @@ def _publish(enum):
     'Content-Type': 'application/json; UTF-8'
   }
 
-  url = url = getUrl(target, idToken)
+  url = getUrl(target, str(idToken))
   
   resp = requests.put(url, data=content.encode('utf-8'), headers=headers)
   if resp.status_code == 200:

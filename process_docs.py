@@ -10,9 +10,8 @@ import pathlib
 from image_uploader import initApp, uploadFile, uploadIssue
 from header import getJSON
 
-from realtime_database_worker import helpers
-from realtime_database_worker.helpers.Target import Target
-from realtime_database_worker.helpers.Target import getTarget
+from helpers.Target import Target
+from helpers.Target import getTarget
 
 #Get the current directory
 dir_path = str(os.path.dirname(os.path.realpath(__file__))) + '/doc'
@@ -98,15 +97,18 @@ def processFile(enum):
 	with open("doc/processed_data.json", 'w') as json_file:
 	    json.dump(jsonData, json_file, indent=4, sort_keys=True)
 
+	print("Published file")    
 	#with open("doc/processed_data.json", 'w') as json_file:
     #json.dump(jsonData, json_file, indent=4, sort_keys=True)
 
 def processIssue(enum):
 	uploadIssue(enum)
+	print("Published issue")
 
 def processBoth(enum):
 	processFile(enum)
 	uploadIssue(enum)
+	print("Published both")
 
 def main():
   parser = argparse.ArgumentParser()
@@ -120,10 +122,10 @@ def main():
   elif args.action and args.action == 'issue' and args.target:
     processIssue(args.target)
   elif args.action and args.action == 'both' and args.target:
-   	processIssue(args.target)
+   	processBoth(args.target)
   else:
     print('''Invalid command. Please use one of the following commands:
-	python3 process_docs.py --action=file --target 
+	python3 process_docs.py --action=file --target BAIT
 	python3 process_docs.py --action=issue --target 
 	python3 process_docs.py --action=both --target 
 ''')

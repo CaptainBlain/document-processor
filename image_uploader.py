@@ -17,23 +17,23 @@ import random
 from oauth2client.service_account import ServiceAccountCredentials
 
 from firebase.firebase import FirebaseApplication, FirebaseAuthentication
-from realtime_database_worker import helpers
-from realtime_database_worker.helpers.Target import Target
-from realtime_database_worker.helpers.Target import getTarget
+from helpers.Target import Target
+from helpers.Target import getTarget
 
 from image_helper import *
 
-import realtime_database_worker.auth
-from realtime_database_worker.auth import getAuthIdTokenForNewUser
+import auth
+from auth import getAuthIdTokenForNewUser
 
-import realtime_database_worker.settings
-from realtime_database_worker.settings import *
+import settings
+from settings import *
 
 def uploadIssue(enum):
   target = getTarget(enum)
   # Init firebase with your credentials
   cred = credentials.Certificate(getKey(target))
-  initialize_app(cred, {'storageBucket': getStorageBucket(target)})
+  bucket = getStorageBucket(target)
+  initialize_app(cred, {'storageBucket': bucket})
 
   dir_path = os.path.dirname(os.path.realpath(__file__))
   # Run through the files

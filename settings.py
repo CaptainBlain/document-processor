@@ -15,30 +15,30 @@ def getCurrentPath():
   return pathlib.Path(__file__).parent.resolve()
 
 def getServicesDirectory():
-    return str(getCurrentPath()) + '/services/'
+    return str(getCurrentPath()) + '/realtime_database_worker/services/'
   
 def getContentPathName(target):
   pathName = str(getCurrentPath())
   if target == Target.BestPractiseIndustry:
-    pathName = pathName + DATABASE_DIRECTORY + 'BPI/'
+    pathName = pathName + DATABASE_DIRECTORY + '/BPI/'
   elif target == Target.BuildingSolutionsUK:
-    pathName = pathName + DATABASE_DIRECTORY + 'BS/'
+    pathName = pathName + DATABASE_DIRECTORY + '/BS/'
   elif target == Target.BuildingAndConstructionReview:
-    pathName = pathName + DATABASE_DIRECTORY + 'BCR/'
+    pathName = pathName + DATABASE_DIRECTORY + '/BCR/'
   elif target == Target.BuildingAndFaciltiesNews:
-    pathName = pathName + DATABASE_DIRECTORY + 'BFN/'
+    pathName = pathName + DATABASE_DIRECTORY + '/BFN/'
   elif target == Target.BusinessAndIndustryToday:
-    pathName = pathName + DATABASE_DIRECTORY + 'BAIT/'
+    pathName = pathName + DATABASE_DIRECTORY + '/BAIT/'
   elif target == Target.FoodAndDrinkMatters:
-    pathName = pathName + DATABASE_DIRECTORY + 'FDM/'
+    pathName = pathName + DATABASE_DIRECTORY + '/FDM/'
   elif target == Target.IndustrialProcessNews:
-    pathName = pathName + DATABASE_DIRECTORY + 'IPN/'
+    pathName = pathName + DATABASE_DIRECTORY + '/IPN/'
   elif target == Target.ProductAndServicesReview:
-    pathName = pathName + DATABASE_DIRECTORY + 'PSR/'
+    pathName = pathName + DATABASE_DIRECTORY + '/PSR/'
   elif target == Target.SolutionsPublishing:
-    pathName = pathName + DATABASE_DIRECTORY + 'SP/'
+    pathName = pathName + DATABASE_DIRECTORY + '/SP/'
   elif target == Target.TradexNews:
-    pathName = pathName + DATABASE_DIRECTORY + 'TN/'
+    pathName = pathName + DATABASE_DIRECTORY + '/TN/'
   os.makedirs(os.path.dirname(pathName), exist_ok=True)
   return pathName
 

@@ -2,9 +2,8 @@ import os
 import pathlib
 import sys
 
-from realtime_database_worker import helpers
-from realtime_database_worker.helpers.Target import Target
-from realtime_database_worker.helpers.Target import getTarget
+from helpers.Target import Target
+from helpers.Target import getTarget
 
 
 SCOPES = ["https://www.googleapis.com/auth/firebase.database"]
@@ -22,7 +21,7 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
     json = {
       "CellType" : "PDFCell",
       "Description" : "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-      "SortOrder" : "",
+      "SortOrder" : "2",
       "ThumbnailImage" : thumbnail,
       "Title" : "Best Practice " + issue,
       "pdfLink" : pdfLink
@@ -83,7 +82,14 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
       "pdfLink" : pdfLink
     }
   elif target == Target.ProductAndServicesReview:
-    json = pathName + DATABASE_DIRECTORY + '/PSR/'
+    json = {
+      "CellType" : "PDFCell",
+      "Description" : "The team at Products & Services Review has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+      "SortOrder" : "",
+      "ThumbnailImage" : thumbnail,
+      "Title" : "Products & Services Review Issue " + issue,
+      "pdfLink" : pdfLink
+    }
   elif target == Target.SolutionsPublishing:
     json = {
       "CellType" : "PDFCell",

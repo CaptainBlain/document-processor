@@ -714,6 +714,13 @@
     "Title" : "Lighting & Electrical"
   }, {
     "Menus" : [ {
+    "CellType": "PDFCell",
+    "Description": "The team at Building and Facilities News has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "49",
+    "ThumbnailImage": "https://storage.googleapis.com/buildingandfacilitiesnews.appspot.com/2022/September/977SS.png",
+    "Title": "Building & Facilities News Issue 977",
+    "pdfLink": "https://storage.googleapis.com/buildingandfacilitiesnews.appspot.com/2022/September/977.pdf"
+},{
       "CellType" : "PDFCell",
       "Description" : "The team at Building and Facilities News has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
       "SortOrder" : "50",
