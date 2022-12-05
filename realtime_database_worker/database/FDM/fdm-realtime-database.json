@@ -534,6 +534,13 @@
     "Title" : "Cleaning & Facilities"
   }, {
     "Menus" : [ {
+    "CellType": "PDFCell",
+    "Description": "The team at Food & Drink Matters has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "58",
+    "ThumbnailImage": "https://storage.googleapis.com/foodanddrinkmatters.appspot.com/2022/November/162SS.png",
+    "Title": "Food & Drink Matters Issue 162",
+    "pdfLink": "https://storage.googleapis.com/foodanddrinkmatters.appspot.com/2022/November/162.pdf"
+},{
       "CellType" : "PDFCell",
       "Description" : "The team at Food & Drink Matters has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
       "SortOrder" : "59",

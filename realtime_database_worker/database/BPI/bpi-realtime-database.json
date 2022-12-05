@@ -326,9 +326,9 @@
           "CellType": "PDFCell",
           "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
           "SortOrder": "2",
-          "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2022/September/662SS.png",
-          "Title": "Best Practice 662",
-          "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2022/September/662.pdf"
+          "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2022/November/663SS.png",
+          "Title": "Best Practice 663",
+          "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2022/November/663.pdf"
         }
       ],
       "SortOrder": "4",
@@ -340,7 +340,15 @@
         {
           "CellType": "PDFCell",
           "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-          "SortOrder": "2",
+          "SortOrder": "57",
+          "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2022/September/662SS.png",
+          "Title": "Best Practice 662",
+          "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2022/September/662.pdf"
+        },
+        {
+          "CellType": "PDFCell",
+          "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+          "SortOrder": "58",
           "ThumbnailImage": "https://firebasestorage.googleapis.com/v0/b/best-practice-industry.appspot.com/o/2022%2F7.jul%2F661SS.png?alt=media&token=ac94cf01-e972-4f2f-a7ee-65818dd90fdc",
           "Title": "Best Practice 661",
           "pdfLink": "https://firebasestorage.googleapis.com/v0/b/best-practice-industry.appspot.com/o/2022%2F7.jul%2F661.pdf?alt=media&token=79b4fee9-df06-4582-b6fd-60495542f5f1"

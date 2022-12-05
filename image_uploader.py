@@ -68,6 +68,47 @@ def uploadIssue(enum):
   with open("images/issue_uploaded.json", 'w') as json_file:
     json.dump(pdfJson, json_file, indent=4, sort_keys=True)
 
+def uploadImages(enum):
+  target = getTarget(enum)
+  # Init firebase with your credentials
+  cred = credentials.Certificate(getKey(target))
+  bucket = getStorageBucket(target)
+  initialize_app(cred, {'storageBucket': bucket})
+
+  dir_path = os.path.dirname(os.path.realpath(__file__))
+  # Run through the files
+
+  imagePath = ''
+  pdfPath = ''
+  issue = ''
+  files = glob.glob(str(dir_path) + "/images/*") 
+  mydate = datetime.datetime.now()
+  month = mydate.strftime("%B")
+  year = str(datetime.date.today().year)
+
+  for x in files:
+    name = os.path.basename(x)
+
+    bucket = storage.bucket()
+    blob = bucket.blob(year + '/' + month + '/' + name)
+    blob.upload_from_filename(x)
+    blob.make_public()
+    imagePath = blob.public_url
+    
+
+  pdfJson = getPdfCellJson(target, imagePath, pdfPath, issue)
+
+  with open("images/issue_uploaded.json", 'w') as json_file:
+    json.dump(pdfJson, json_file, indent=4, sort_keys=True)
+
+def test():
+  x = '{"hello":"test"}'
+  z = json.loads(x)
+  for x in ["1", "2", "3", "4"]:
+    z.update({"number":x})
+
+  print(json)
+
 def initApp(enum):
   target = getTarget(enum)
   cred = credentials.Certificate(getKey(target))
@@ -95,13 +136,16 @@ def main():
   if args.action and args.action == 'get' and args.target:
     _get(args.target)
   elif args.action and args.action == 'issue' and args.target:
-    _uploadIssue(args.target)
+    uploadIssue(args.target)
   elif args.action and args.action == 'upload' and args.target:
-    _uploadImagesManual(args.target)
+    uploadImages(args.target)
+  elif args.action and args.action == 'test':
+    test()
   else:
     print('''Invalid command. Please use one of the following commands:
 python3 image_uploader.py --action=issue --target BCR
 python3 image_uploader.py --action=upload --target BCR
+python3 image_uploader.py --action=test
 ''')
 
 if __name__ == '__main__':

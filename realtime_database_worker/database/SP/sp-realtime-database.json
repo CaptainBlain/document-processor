@@ -570,7 +570,28 @@
       "ThumbnailImage" : "https://firebasestorage.googleapis.com/v0/b/soloutionspublishing.appspot.com/o/Issues%2Flatest%20new%20cover.jpg?alt=media&token=2b4457fb-43a4-4625-8b29-649573cea603",
       "Title" : "Latest Issues",
       "id" : "1"
-    }, {
+    },{
+    "CellType": "PDFCell",
+    "Description": "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
+    "SortOrder": "541",
+    "ThumbnailImage": "https://storage.googleapis.com/solutionspublishing-94e4b.appspot.com/2022/November/ISO659SS.png",
+    "Title": "Building Update 659",
+    "pdfLink": "https://storage.googleapis.com/solutionspublishing-94e4b.appspot.com/2022/November/ISO659.pdf"
+},{
+    "CellType": "PDFCell",
+    "Description": "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
+    "SortOrder": "542",
+    "ThumbnailImage": "https://firebasestorage.googleapis.com/v0/b/solutionspublishing-94e4b.appspot.com/o/2022%2FNovember%2FISO658.pdf?alt=media&token=adebfa31-0163-4157-b089-3b9d5ad2ee2a",
+    "Title": "Industrial Solutions 658",
+    "pdfLink": "https://firebasestorage.googleapis.com/v0/b/solutionspublishing-94e4b.appspot.com/o/2022%2FNovember%2FISO658.pdf?alt=media&token=adebfa31-0163-4157-b089-3b9d5ad2ee2a"
+},{
+    "CellType": "PDFCell",
+    "Description": "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
+    "SortOrder": "543",
+    "ThumbnailImage": "https://firebasestorage.googleapis.com/v0/b/solutionspublishing-94e4b.appspot.com/o/2022%2FNovember%2FISO657SS.png?alt=media&token=72bdbc35-7bbb-4923-8157-eb8c73e40577",
+    "Title": "Industrial Solutions 657",
+    "pdfLink": "https://firebasestorage.googleapis.com/v0/b/solutionspublishing-94e4b.appspot.com/o/2022%2FNovember%2FISO657.pdf?alt=media&token=2b6c66b8-1fe6-4f2f-82ec-82e91c2f66d8"
+}, {
       "CellType" : "PDFCell",
       "Description" : "The team at Industrial Solutions UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
       "SortOrder" : "544",
@@ -973,7 +994,29 @@
       "Title" : "Industrial Solutions 601",
       "id" : "2",
       "pdfLink" : "https://firebasestorage.googleapis.com/v0/b/soloutionspublishing.appspot.com/o/Issues%2FIndustrial%20Solutions%20Extract_opt.pdf?alt=media&token=e083d8cf-dfb0-490f-9cd0-a4b9bb4805dc"
-    }, {
+    },{
+    "CellType": "PDFCell",
+    "Description": "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
+    "SortOrder": "941",
+    "ThumbnailImage": "https://storage.googleapis.com/solutionspublishing-94e4b.appspot.com/2022/November/BUP659SS.png",
+    "Title": "Building Update 659",
+    "pdfLink": "https://storage.googleapis.com/solutionspublishing-94e4b.appspot.com/2022/November/BUP659.pdf"
+},{
+    "CellType": "PDFCell",
+    "Description": "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
+    "SortOrder": "942",
+    "ThumbnailImage": "https://firebasestorage.googleapis.com/v0/b/solutionspublishing-94e4b.appspot.com/o/2022%2FNovember%2FBUP658SS.png?alt=media&token=eb5b35c9-02c8-43ff-b3bb-126451821490",
+    "Title": "Building Update 658",
+    "pdfLink": "https://storage.googleapis.com/solutionspublishing-94e4b.appspot.com/2022/November/ISO658.pdf"
+},
+{
+    "CellType": "PDFCell",
+    "Description": "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
+    "SortOrder": "943",
+    "ThumbnailImage": "https://storage.googleapis.com/solutionspublishing-94e4b.appspot.com/2022/November/BUP657SS.png",
+    "Title": "Building Update 657",
+    "pdfLink": "https://firebasestorage.googleapis.com/v0/b/solutionspublishing-94e4b.appspot.com/o/2022%2FNovember%2FBUP657.pdf?alt=media&token=a86f99b3-4658-475b-aa31-d2e18df2d18d"
+}, {
       "CellType" : "PDFCell",
       "Description" : "I hope you enjoy reading this issue as much as we have enjoyed bringing it to you. Happy reading and we hope to see you for the next edition!",
       "SortOrder" : "944",

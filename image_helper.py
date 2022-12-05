@@ -109,6 +109,7 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
       "pdfLink" : pdfLink
     }
   return json
+    
 
 def getStorageBucket(target):
   bucket = ''
