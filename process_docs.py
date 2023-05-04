@@ -6,8 +6,11 @@ from os.path import isfile, join
 import textract
 import json
 import pathlib
+import glob
 
-from image_uploader import initApp, uploadFile, uploadIssue
+from image_uploader import initApp, uploadIssue, uploadImages, uploadFile
+from screenshot_pdf import extract_first_page_image
+
 from header import getJSON
 
 from helpers.Target import Target
@@ -15,6 +18,8 @@ from helpers.Target import getTarget
 
 #Get the current directory
 dir_path = str(os.path.dirname(os.path.realpath(__file__))) + '/doc'
+issues_path = str(os.path.dirname(os.path.realpath(__file__))) + '/issues'
+#pdf_files = str(os.path.dirname(os.path.realpath(__file__))) + '/issues'
 
 #List the files
 #for f in listdir(dir_path):
@@ -40,6 +45,19 @@ def getSubFoldersForDirecory(directory_path):
 		#Ignore the folders we don't need
 		if '.git' not in subFolder and '__pycache__' not in subFolder:
 			getSubFoldersForDirecory(subFolder)
+
+def handlePDF():
+
+	dir_path = os.path.dirname(os.path.realpath(__file__))
+	files = glob.glob(str(dir_path) + "/issues/*") 
+
+	for x in files:
+		pdf_name = os.path.basename(x)
+		old_extension = os.path.splitext(pdf_name)[1]
+		new_extension = ".png"
+		new_file_name = pdf_name.replace(old_extension, new_extension)
+		pdf_path = os.path.abspath(x)
+		extract_first_page_image(pdf_path, issues_path + '/' + new_file_name)
 
 
 def processFile(enum):
@@ -102,12 +120,17 @@ def processFile(enum):
     #json.dump(jsonData, json_file, indent=4, sort_keys=True)
 
 def processIssue(enum):
+	print("Taking Screenshot")
+	handlePDF()
+	print("Uploading issue")
 	uploadIssue(enum)
 	print("Published issue")
 
 def processBoth(enum):
+	print("process Issue")
+	processIssue(enum)
+	print("process File")
 	processFile(enum)
-	uploadIssue(enum)
 	print("Published both")
 
 def main():

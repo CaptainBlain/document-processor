@@ -41,7 +41,7 @@ def uploadIssue(enum):
   imagePath = ''
   pdfPath = ''
   issue = ''
-  files = glob.glob(str(dir_path) + "/images/*") 
+  files = glob.glob(str(dir_path) + "/issues/*") 
   mydate = datetime.datetime.now()
   month = mydate.strftime("%B")
   year = str(datetime.date.today().year)
@@ -65,7 +65,7 @@ def uploadIssue(enum):
 
   pdfJson = getPdfCellJson(target, imagePath, pdfPath, issue)
 
-  with open("images/issue_uploaded.json", 'w') as json_file:
+  with open("issues/issue_uploaded.json", 'w') as json_file:
     json.dump(pdfJson, json_file, indent=4, sort_keys=True)
 
 def uploadImages(enum):
@@ -81,7 +81,7 @@ def uploadImages(enum):
   imagePath = ''
   pdfPath = ''
   issue = ''
-  files = glob.glob(str(dir_path) + "/images/*") 
+  files = glob.glob(str(dir_path) + "/issues/*") 
   mydate = datetime.datetime.now()
   month = mydate.strftime("%B")
   year = str(datetime.date.today().year)
@@ -98,7 +98,7 @@ def uploadImages(enum):
 
   pdfJson = getPdfCellJson(target, imagePath, pdfPath, issue)
 
-  with open("images/issue_uploaded.json", 'w') as json_file:
+  with open("issues/issue_uploaded.json", 'w') as json_file:
     json.dump(pdfJson, json_file, indent=4, sort_keys=True)
 
 def test():

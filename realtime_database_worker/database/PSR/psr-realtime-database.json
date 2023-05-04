@@ -39,14 +39,26 @@
     {
       "Menus": [
         {
-          "CellType": "HeaderCell",
+        "CellType": "HeaderCell",
+        "CompanyName": " Halal Food Authority P ",
+        "Date": "15/12/2022",
+        "Description": "In this issue of Products and Services Review, we are pleased to announce Halal Food Authority (HFA) as our Halal Certification Body Company of the Month",
+        "DetailDescription": "In this issue of Products and Services Review, we are pleased to announce Halal Food Authority (HFA) as our Halal Certification Body Company of the Month.HFA was originally established in 1994 to monitor and supervise red meat and poultry in the UK. Today, HFA has evolved to specialise in halal certification for the food industry providing services to all those involved in food manufacturing, meat slaughtering, cutting, confectioneries, ready meals, food additives, cultures & enzymes, flavouring, food colorants, lubricants, restaurants, cosmetics and personal care.\u201cHFA is a Halal Certification Body which contractually works with establishments that are involved in the production and supply of Halal products, providing an assurance for the Muslim consumers that all the food they consume meets the axiom and standards of Halal. We have a strong presence and international recognition which stems from our main UK head office in London, as well as from our other offices in Belgium and Ireland,\u201d stated Dr Amir Masoom, CEO of HFA.To become a part of scientific research and innovation schemes that aim to support further development of the global Halal industry is integral to everything HFA does. From the export of Halal meat, processed food, and non-food items such as cosmetics and pharmaceutical products, particularly to middle Eastern (GCC), Turkey and far-east countries such as Indonesia and Singapore. HFA has a team of highly qualified and experienced food technologists and auditors who work tirelessly to utilize their skill base to serve both the Muslim community and the wider halal industry.HFA always endorse its policies reflecting honesty, transparency, due diligence and adherence to Islamic Jurisprudence, which is why it is one of the leading renowned Halal Certification bodies in the world. \u201cHaving our certification and Halal mark (logo) on the products opens new business opportunities, particularly in markets where demand of Halal food is growing at an exceptional rate. We can confidently say that we are the most internationally recognised Halal Certification body compared to any of our competitors,\u201d said Dr Amir.Of course, to continue a business in the food industry following COVID-19, is and will continue to be difficult with changing working conditions and certain protocols to follow. However, HFA learnt to adapt its business practice to overcome the challenges following the pandemic. Dr Amir explained, \u201cWe developed a new online portal system which helped us working from home without compromising on the quality and efficiency of our services. We replaced our on-site auditing system to remote video auditing, and it worked well. We are slowly going back to working from the office and we have recently moved head office to a more central location in London, with good links to main train stations and airports. In addition, we now have additional meeting rooms equipped with better IT facilities to connect remotely worldwide.\u201dHalal certified cosmetics are high in demand from consumers in Middle East and Far East countries. The market is expected to reach $144.8 billion by 2021 according to Allied market research (09 Nov 22). Besides the food sector, which contributes to majority of our product certification, the cosmetic scheme that HFA is offering is in high demand and our certificate is accepted all over the world. Our certification is recognized as a symbol of authenticity and trust,\u201d stated Dr Amir.\tSo far, HFA have certified over 270 companies, 420 sites, 4,300 products and 176 stores. Moving forward, the company has big plans to not only continue growing and expanding its presence into more sectors around the world but to also reach new markets offering new services, Amir commented, \u201cWe have a team of a trained, highly qualified, and experienced auditors, food technologists and expert Islamic scholars. In the future, we would like to diversify our services by adding food safety audits into our scope.\u201dFor more information, please see below:T 020 8446 7127info@halalfoodauthority.comwww.halalfoodauthority.com",
+        "Image": "https://storage.googleapis.com/productservicesreview.appspot.com/2022/December/HalalFoodAuthority_809_04.jpg",
+        "PhoneNumber": "",
+        "SortOrder": "96",
+        "Title": "Your halal certification experts",
+        "WebsiteURL": "http://www.halalfoodauthority.com"
+    },
+        {
+          "CellType": "RegularCell",
           "CompanyName": " Kandy Kitchen Creations APP ",
           "Date": "21/09/2022",
           "Description": "Kandy Kitchen Creations Ltd, set up by husband-and-wife team Karen and Andy Turner originally from their kitchen table, now have a range of 32 products across 4 categories: SOUPS, STEWS, RISOTTO and PUDDINGS, which are all still made by hand, albeit in a much bigger production space than before their appearance on Dragons’ Den",
           "DetailDescription": "Kandy Kitchen Creations Ltd, set up by husband-and-wife team Karen and Andy\nTurner originally from their kitchen table, now have a range of 32 products\nacross 4 categories: SOUPS, STEWS, RISOTTO and PUDDINGS, which are all\nstill made by hand, albeit in a much bigger production space than before\ntheir appearance on Dragons’ Den.The packs are put together ‘sand art style’ in home compostable tubes and\nhave ‘Super Simple’ instructions. The RRP is £5.49, with Gluten free and\nVegan options available. The savoury options are easy to prepare family\nmeals and the majority just need water and a heat source to be ready in\naround half an hour. This makes them ideal for taking on camping, caravan,\nmotorhome and motorcycling holidays or a super speedy and nutritious family\nmeal when you just don’t have time to cook. The puddings range are equally\nsuper simple to prepare just by adding a few ‘wet’ ingredients such as\nbutter, treacle or eggs to the mix and following the instructions on the\npack.Kandy Kitchen Creations sell online at www.kandykitchencreations.co.uk and\nare currently stocked in around 60 farm shops, deli’s and garden centres\nacross the UK.Kandy Kitchen Creations won New Business of the Year in 2019 at their local\narea business awards and have since been on BBC One’s Dragons’ Den (S19,\nEp3 - 20.1.22).If you are interested in joining the wholesale side of their family\nbusiness, please visit the wholesale section of the website and register.\nOr contact andy@kandykitchencreations.co.uk for further info.Find us on Facebook (Super Simple by Kandy Kitchen Creations) and Instagram\n(@kandykltchencreations)Contact\nT 01706 334308\nM 07814 824180\nenquiries@kandykitchencreations.co.uk\nwww.kandykitchencreations.co.uk\n",
           "Image": "https://storage.googleapis.com/productservicesreview.appspot.com/2022/September/KandyKitchenCreations_807_02.jpg",
           "PhoneNumber": "01706 334308",
-          "SortOrder": "1",
+          "SortOrder": "97",
           "Title": " Kandy Kitchen Creations",
           "WebsiteURL": "http://www.kandykitchencreations.co.uk"
         },
@@ -599,6 +611,30 @@
     },
     {
       "Menus": [
+        {
+    "CellType": "PDFCell",
+    "Description": "The team at Products & Services Review has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "88",
+    "ThumbnailImage": "https://storage.googleapis.com/productservicesreview.appspot.com/2023/May/PSR811.png",
+    "Title": "Products & Services Review Issue 811",
+    "pdfLink": "https://storage.googleapis.com/productservicesreview.appspot.com/2023/May/PSR811.pdf"
+},
+        {
+    "CellType": "PDFCell",
+    "Description": "The team at Products & Services Review has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "89",
+    "ThumbnailImage": "https://storage.googleapis.com/productservicesreview.appspot.com/2023/February/PSR810ss.png",
+    "Title": "Products & Services Review Issue 810",
+    "pdfLink": "https://storage.googleapis.com/productservicesreview.appspot.com/2023/February/PSR810.pdf"
+},
+        {
+    "CellType": "PDFCell",
+    "Description": "The team at Products & Services Review has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "90",
+    "ThumbnailImage": "https://storage.googleapis.com/productservicesreview.appspot.com/2022/December/psr809ss.png",
+    "Title": "Products & Services Review Issue 809",
+    "pdfLink": "https://storage.googleapis.com/productservicesreview.appspot.com/2022/December/PSR809.pdf"
+},
         {
           "CellType": "PDFCell",
           "Description": "The team at Products & Services Review has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",

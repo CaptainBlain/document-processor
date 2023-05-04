@@ -375,19 +375,20 @@
           "Title": "Latest Issue"
         },
         {
-          "CellType": "PDFCell",
-          "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-          "SortOrder": "2",
-          "ThumbnailImage": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2022/November/391SS.png",
-          "Title": "Building & Construction Review UK 391",
-          "id": "1",
-          "pdfLink": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2022/November/391.pdf"
-        },
+    "CellType": "PDFCell",
+    "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "2",
+    "ThumbnailImage": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2023/May/395.png",
+    "Title": "Building & Construction Review UK 395",
+    "id": "1",
+    "pdfLink": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2023/May/395.pdf"
+},
+        
         {
           "CellType": "TextCell",
           "Description": "As with every edition, the team at BCR UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies, and we believe that this could be the best yet!",
           "SortOrder": "3",
-          "Title": "Hello & welcome to Issue 391 of BCR UK..."
+          "Title": "Hello & welcome to Issue 394 of BCR UK..."
         }
       ],
       "SortOrder": "4",
@@ -396,6 +397,42 @@
     },
     {
       "Menus": [
+        {
+    "CellType": "PDFCell",
+    "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "42",
+    "ThumbnailImage": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2023/March/394ss.png",
+    "Title": "Building & Construction Review UK 394",
+    "id": "2",
+    "pdfLink": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2023/March/394.pdf"
+},
+        {
+          "CellType": "PDFCell",
+          "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+          "SortOrder": "43",
+          "ThumbnailImage": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2023/March/393ss.png",
+          "Title": "Building & Construction Review UK 393",
+          "id": "1",
+          "pdfLink": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2023/March/393.pdf"
+        },
+        {
+          "CellType": "PDFCell",
+          "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+          "SortOrder": "44",
+          "ThumbnailImage": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2022/December/392ss.png",
+          "Title": "Building & Construction Review UK 392",
+          "id": "1",
+          "pdfLink": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2022/December/392.pdf"
+        },
+        {
+          "CellType": "PDFCell",
+          "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+          "SortOrder": "45",
+          "ThumbnailImage": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2022/November/391SS.png",
+          "Title": "Building & Construction Review UK 391",
+          "id": "1",
+          "pdfLink": "https://storage.googleapis.com/buildingandconstructionreview.appspot.com/2022/November/391.pdf"
+        },
         {
           "CellType": "PDFCell",
           "Description": "The team at Building & Construction Review UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
