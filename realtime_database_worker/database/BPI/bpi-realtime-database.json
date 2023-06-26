@@ -323,13 +323,13 @@
           "pdfLink": ""
         },
         {
-          "CellType": "PDFCell",
-          "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-          "SortOrder": "2",
-          "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/May/666.png",
-          "Title": "Best Practice 666",
-          "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/May/666.pdf"
-        }
+    "CellType": "PDFCell",
+    "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+    "SortOrder": "2",
+    "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/June/667.png",
+    "Title": "Best Practice 667",
+    "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/June/667.pdf"
+}
       ],
       "SortOrder": "4",
       "Title": "Latest Issue",
@@ -337,10 +337,18 @@
     },
     {
       "Menus": [
+                {
+          "CellType": "PDFCell",
+          "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+          "SortOrder": "53",
+          "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/May/666.png",
+          "Title": "Best Practice 666",
+          "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/May/666.pdf"
+        },
         {
           "CellType": "PDFCell",
           "Description": "The team at Best Practice Industry UK has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-          "SortOrder": "2",
+          "SortOrder": "54",
           "ThumbnailImage": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/March/665ss.png",
           "Title": "Best Practice 665",
           "pdfLink": "https://storage.googleapis.com/best-practice-industry.appspot.com/2023/March/665.pdf"

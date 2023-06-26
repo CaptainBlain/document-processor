@@ -50,7 +50,6 @@ def handlePDF():
 
 	dir_path = os.path.dirname(os.path.realpath(__file__))
 	files = glob.glob(str(dir_path) + "/issues/*") 
-
 	for x in files:
 		pdf_name = os.path.basename(x)
 		old_extension = os.path.splitext(pdf_name)[1]
@@ -137,7 +136,7 @@ def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--action')
   parser.add_argument('--target', default='SP', const='SP', nargs='?', 
-    choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN')
+    choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN', 'IU'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN, IU')
   args = parser.parse_args()
 
   if args.action and args.action == 'file' and args.target:

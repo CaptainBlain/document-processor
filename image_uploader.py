@@ -65,8 +65,31 @@ def uploadIssue(enum):
 
   pdfJson = getPdfCellJson(target, imagePath, pdfPath, issue)
 
-  with open("issues/issue_uploaded.json", 'w') as json_file:
+  file_name = "issues/issue_uploaded.json"
+  
+  with open(file_name, 'w') as json_file:
     json.dump(pdfJson, json_file, indent=4, sort_keys=True)
+  # Specify the path to your JSON file
+
+  # Get the current directory (app directory)
+  # app_directory = os.getcwd()
+
+  # # Construct the file path
+  # file_path = os.path.join(app_directory, file_name) 
+  
+  # if os.path.exists(file_path):
+  #   print(f"The file '{file_name}' does exist in the app directory.")
+
+  # # Open the file in Sublime Text 2
+  # sublime_command = ['subl', file_path]
+  # subprocess.Popen(sublime_command)
+
+  # # Read the contents of the JSON file
+  # with open(file_path) as json_file:
+  #     data = json.load(json_file)
+
+
+
 
 def uploadImages(enum):
   target = getTarget(enum)
@@ -130,7 +153,7 @@ def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--action')
   parser.add_argument('--target', default='SP', const='SP', nargs='?', 
-    choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN')
+    choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN', 'IU'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN, IU')
   args = parser.parse_args()
 
   if args.action and args.action == 'get' and args.target:

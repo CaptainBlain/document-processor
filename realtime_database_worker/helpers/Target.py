@@ -11,6 +11,7 @@ class Target(Enum):
 	ProductAndServicesReview = 'PSR'
 	SolutionsPublishing = 'SP'
 	TradexNews = 'TN'
+	IndustryUpdate = 'IU'
 
 def getTarget(enum):
 	return Target(enum)

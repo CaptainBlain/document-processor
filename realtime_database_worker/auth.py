@@ -36,6 +36,8 @@ def getAPIKey(target):
     key = 'AIzaSyAKI_4CDCMed9XDb6HcyJHEIwNrcjAkw9I'
   elif target == Target.TradexNews:
     key = 'AIzaSyC1jM7avSGL6ndDqhLFO-TWiLe7kHMa1j0'
+  elif target == Target.IndustryUpdate:
+    key = 'AIzaSyCBfdIn_OFwtDEwbj_ZeyMPAhJai5xkcCQ'
   return key 
 
 def getAuthIdTokenForNewUser(target):

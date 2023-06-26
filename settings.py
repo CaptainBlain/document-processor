@@ -20,25 +20,27 @@ def getServicesDirectory():
 def getContentPathName(target):
   pathName = str(getCurrentPath())
   if target == Target.BestPractiseIndustry:
-    pathName = pathName + DATABASE_DIRECTORY + '/BPI/'
+    pathName = pathName + DATABASE_DIRECTORY + 'BPI/'
   elif target == Target.BuildingSolutionsUK:
-    pathName = pathName + DATABASE_DIRECTORY + '/BS/'
+    pathName = pathName + DATABASE_DIRECTORY + 'BS/'
   elif target == Target.BuildingAndConstructionReview:
-    pathName = pathName + DATABASE_DIRECTORY + '/BCR/'
+    pathName = pathName + DATABASE_DIRECTORY + 'BCR/'
   elif target == Target.BuildingAndFaciltiesNews:
-    pathName = pathName + DATABASE_DIRECTORY + '/BFN/'
+    pathName = pathName + DATABASE_DIRECTORY + 'BFN/'
   elif target == Target.BusinessAndIndustryToday:
-    pathName = pathName + DATABASE_DIRECTORY + '/BAIT/'
+    pathName = pathName + DATABASE_DIRECTORY + 'BAIT/'
   elif target == Target.FoodAndDrinkMatters:
-    pathName = pathName + DATABASE_DIRECTORY + '/FDM/'
+    pathName = pathName + DATABASE_DIRECTORY + 'FDM/'
   elif target == Target.IndustrialProcessNews:
-    pathName = pathName + DATABASE_DIRECTORY + '/IPN/'
+    pathName = pathName + DATABASE_DIRECTORY + 'IPN/'
   elif target == Target.ProductAndServicesReview:
-    pathName = pathName + DATABASE_DIRECTORY + '/PSR/'
+    pathName = pathName + DATABASE_DIRECTORY + 'PSR/'
   elif target == Target.SolutionsPublishing:
-    pathName = pathName + DATABASE_DIRECTORY + '/SP/'
+    pathName = pathName + DATABASE_DIRECTORY + 'SP/'
   elif target == Target.TradexNews:
-    pathName = pathName + DATABASE_DIRECTORY + '/TN/'
+    pathName = pathName + DATABASE_DIRECTORY + 'TN/'
+  elif target == Target.IndustryUpdate:
+    pathName = pathName + DATABASE_DIRECTORY + 'IU/'
   os.makedirs(os.path.dirname(pathName), exist_ok=True)
   return pathName
 
@@ -64,6 +66,8 @@ def getRemoteConfigUrl(target):
     fileName = 'https://solutionspublishing-94e4b.firebaseio.com/'
   elif target == Target.TradexNews:
     fileName = 'https://tradexnews-79603.firebaseio.com/'
+  elif target == Target.IndustryUpdate:
+    fileName = 'https://industry-update-f17a9-default-rtdb.firebaseio.com/'
   return fileName 
 
 
@@ -89,6 +93,8 @@ def getKey(target):
     fileName = os.path.join(getServicesDirectory(), 'solutionspublishing-account.json')
   elif target == Target.TradexNews:
     fileName = os.path.join(getServicesDirectory(), 'tradexnews-account.json')
+  elif target == Target.IndustryUpdate:
+    fileName = os.path.join(getServicesDirectory(), 'industry-update-service-account.json')
   return fileName 
 
 
@@ -114,13 +120,8 @@ def getContentFileName(target):
   elif target == Target.SolutionsPublishing:
     savePath = os.path.join(getContentPathName(target), 'sp-realtime-database.json') 
   elif target == Target.TradexNews:
-    savePath = os.path.join(getContentPathName(target), 'tn-realtime-database.json') 
+    savePath = os.path.join(getContentPathName(target), 'tn-realtime-database.json')
+  elif target == Target.IndustryUpdate:
+    savePath = os.path.join(getContentPathName(target), 'iu-realtime-database.json') 
   return savePath  
-
-
-
-
-
-
-
 

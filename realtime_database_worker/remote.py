@@ -75,7 +75,7 @@ def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--action')
   parser.add_argument('--target', default='SP', const='SP', nargs='?', 
-    choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN')
+    choices=['BPI', 'BS', 'BCR', 'BFN', 'BAIT', 'FDM', 'IPN', 'PSR', 'SP', 'TN', 'IU'], help = 'Target BPI, BS, BCR, BFN, BAIT, FDM, IPN, PSR, SP, TN, IU')
   args = parser.parse_args()
 
   if args.action and args.action == 'get' and args.target:

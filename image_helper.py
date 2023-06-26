@@ -49,7 +49,7 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
     json = {
       "CellType" : "PDFCell",
       "Description" : "The team at Building and Facilities News has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-      "SortOrder" : "50",
+      "SortOrder" : "",
       "ThumbnailImage" : thumbnail,
       "Title" : "Building & Facilities News Issue " + issue,
       "pdfLink" : pdfLink
@@ -58,7 +58,7 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
     json = {
       "CellType" : "PDFCell",
       "Description" : "The team at Business and Industry today has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-      "SortOrder" : "98",
+      "SortOrder" : "",
       "ThumbnailImage" : thumbnail,
       "Title" : "Business and Industry Today Issue " + issue,
       "pdfLink" : pdfLink
@@ -67,7 +67,7 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
     json =  {
       "CellType" : "PDFCell",
       "Description" : "The team at Food & Drink Matters has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
-      "SortOrder" : "71",
+      "SortOrder" : "",
       "ThumbnailImage" : thumbnail,
       "Title" : "Food & Drink Matters Issue " + issue,
       "pdfLink" : pdfLink
@@ -108,6 +108,15 @@ def getPdfCellJson(target, thumbnail, pdfLink, issue):
       "Title" : "Tradex News Issue " + issue,
       "pdfLink" : pdfLink
     }
+  elif target == Target.IndustryUpdate:
+    json = {
+      "CellType" : "PDFCell",
+      "Description" : "The team at Industry Update has been working extremely hard to bring you an issue that is full of innovative and exhilarating companies and we are very excited to share their success and achievements with you.",
+      "SortOrder" : "",
+      "ThumbnailImage" : thumbnail,
+      "Title" : "Industry Update Issue " + issue,
+      "pdfLink" : pdfLink
+    }
   return json
     
 
@@ -133,6 +142,8 @@ def getStorageBucket(target):
     bucket = 'solutionspublishing-94e4b.appspot.com'
   elif target == Target.TradexNews:
     bucket = 'tradexnews-79603.appspot.com'
+  elif target == Target.IndustryUpdate:
+    bucket = 'industry-update-f17a9.appspot.com'
   return bucket 
 
 
@@ -158,6 +169,8 @@ def getKey(target):
     fileName = os.path.join(getServicesDirectory(), 'solutionspublishing-account.json')
   elif target == Target.TradexNews:
     fileName = os.path.join(getServicesDirectory(), 'tradexnews-account.json')
+  elif target == Target.IndustryUpdate:
+    fileName = os.path.join(getServicesDirectory(), 'industry-update-service-account.json')
   return fileName 
 
 
@@ -183,7 +196,9 @@ def getContentFileName(target):
   elif target == Target.SolutionsPublishing:
     savePath = os.path.join(getContentPathName(target), 'sp-realtime-database.json') 
   elif target == Target.TradexNews:
-    savePath = os.path.join(getContentPathName(target), 'tn-realtime-database.json') 
+    savePath = os.path.join(getContentPathName(target), 'tn-realtime-database.json')
+  elif target == Target.IndustryUpdate:
+    savePath = os.path.join(getContentPathName(target), 'iu-realtime-database.json') 
   return savePath  
 
 
