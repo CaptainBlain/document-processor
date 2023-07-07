@@ -4,13 +4,7 @@
       "MenuStyle": "1",
       "Menus": [
         {
-          "CellType": "IssueHeaderCell",
-          "Image": "https://firebasestorage.googleapis.com/v0/b/industry-update-f17a9.appspot.com/o/2023%2Fjun%2FBuildingUpdate-Fan.png?alt=media&token=38a96bb4-62d3-4d44-829b-ace16c4585b3",
-          "SortOrder": "1",
-          "Title": ""
-        },
-        {
-          "CellType": "RegularCell",
+          "CellType": "HeaderCell",
           "CompanyName": " G&Tea Hand Crafted Cornish Gin P ",
           "Date": "24/02/2022",
           "Description": "In this issue of Food and Drink Matters, we are pleased to announce G&Tea as our Artisan Alcohol Company of the Month",
@@ -775,8 +769,8 @@
         {
           "CellType": "AboutCell",
           "CompanyName": "Food & Drink Matters",
-          "Description": "Welcome to the Industry Update App, bringing you the latest news from a wide variety of food industry sectors.",
-          "DetailDescription": "Industry Update is a publication that circulates 5,000 printed copies on a national basis to approximately 15,000 readers.\n\nIndustry Update is circulated to decision makers involved in the UK’s food and drink markets. Each edition updates readers with current trends and developments, as well as new products and services launched into the marketplace. This makes Food & Drink Matters an excellent reference tool.\n\nAt Food & Drink Matters, we do not publish a forward features list and work issue to issue. Typically we publish the following features regularly:\n\nExhibition reviews and previews, health and safety, cleaning and hygiene, print and packaging, labelling, automation, food and drink processing, food and drink manufacturing, logistics and distribution, import/export, security, heating, ventilation & air conditioning, refrigeration, hospitality, retail, facilities management & appointments.\n\nIf you would like to feature a press release or advertisement for your company in the publication, please contact the editor.\n\nFurther information:\nTo view our Media Pack, which includes print specifications and format requirements, click here.",
+          "Description": "Welcome to the Industry Update App, bringing you the latest news from a wide variety of industry sectors.",
+          "DetailDescription": "Industry Update is a multi-media digital magazine which circulates directly to 20,000 targeted businesses per issue, and is downloadable from multiple digital news stands and via social media Twitter, LinkedIn and our iOS app. The aim of the publication is to promote good quality products and services from reliable and trustworthy companies that would be of interest and relevance to our readers. People that read the publication include decision makers that work within the key sectors of UK industry. These people work for organisations such as manufacturing, engineering, process, warehousing, handling, logistics, building and construction, retail and other key industry sectors.\n\nRegular features\nAlthough we do not publish a forward features list and we work issue to issue, we do publish the following features regularly: Company profiles/interviews, Exhibition reviews/previews, New product updates, Manufacturing and industrial, Health & Safety and security, Building, Facilities management, Heating and plumbing, Air conditioning and ventilation, Electronics, Testing and measurement, Processing and instrumentation, Printing and packaging, Water, energy and environmental, Landscaping and external works, Handling and storage, Software and technology, Corporate entertainment, Hospitality, Food and drink retail, Interiors, Cleaning and hygiene.",
           "LinkedInURL": "https://www.linkedin.com/in/nick-eddowes-7a0718103?authType=NAME_SEARCH&authToken=sl7U&locale=en_US&srchid=2532924251486491324316&srchindex=2&srchtotal=2&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2532924251486491324316%2CVSRPtargetId%3A440717160%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH",
           "PhoneNumber": "01562 756960",
           "SortOrder": "2",
@@ -787,7 +781,7 @@
         },
         {
           "CellType": "PDFCell",
-          "Description": "Industry Update is circulated to decision makers involved in the UK’s food and drink markets. Each edition updates readers with current trends and developments, as well as new products and services launched into the marketplace. This makes Food & Drink Matters an excellent reference tool.",
+          "Description": "Industry Update is circulated to decision makers involved in the UK’s industry sectors. Each edition updates readers with current trends and developments, as well as new products and services launched into the marketplace. This makes Industry Update an excellent reference tool.",
           "SortOrder": "3",
           "ThumbnailImage": "https://firebasestorage.googleapis.com/v0/b/industry-update-f17a9.appspot.com/o/2023%2Fjun%2FINUMediaInformationSS.png?alt=media&token=7e435211-59b1-494a-94f6-ffde57902e34",
           "Title": "Media Pack",
