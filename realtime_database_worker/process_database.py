@@ -84,8 +84,8 @@ def main():
     _publish(args.target)
   else:
     print('''Invalid command. Please use one of the following commands:
-python3 remote.py --action=get --target BAIT
-python3 remote.py --action=publish --target BAIT
+python3 process_database.py --action=get --target BAIT
+python3 process_database.py --action=publish --target BAIT
 ''')
 
 if __name__ == '__main__':
