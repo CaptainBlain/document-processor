@@ -7,49 +7,23 @@ import textract
 import json
 import pathlib
 import glob
+import time
 
-from image_uploader import initApp, uploadIssue, uploadImages, uploadFile
-from screenshot_pdf import extract_first_page_image
+from helpers.image.uploader import *
+from helpers.image.screenshot_pdf import extract_first_page_image
 
-from header import getJSON
+from helpers.document_handler import get_json_for_doc_directory
+from helpers.utils import open_in_sublime, start_loading_animation
 
-from helpers.Target import Target
-from helpers.Target import getTarget
 
 #Get the current directory
-dir_path = str(os.path.dirname(os.path.realpath(__file__))) + '/doc'
-issues_path = str(os.path.dirname(os.path.realpath(__file__))) + '/issues'
-#pdf_files = str(os.path.dirname(os.path.realpath(__file__))) + '/issues'
+doc_path = str(os.path.dirname(os.path.realpath(__file__))) + '/export/doc'
+issues_path = str(os.path.dirname(os.path.realpath(__file__))) + '/export/issues'
 
-#List the files
-#for f in listdir(dir_path):
-	#if isfile(join(dir_path, f)):
-		#doc = join(dir_path, f)
-		#if '.doc' in doc:
-			#print(doc)
-
-
-documentsPaths = []
-documentName = ""
-def getSubFoldersForDirecory(directory_path):
-	#Get any subfolders
-	subfolders = [f.path for f in os.scandir(directory_path) if f.is_dir() ]   
-	#print(subfolders)
-	#Get any Docuemnts
-	documents = [f for f in listdir(directory_path) if isfile(join(directory_path, f))]
-	
-	for doc in documents:
-		if '.doc' in doc:		
-			documentsPaths.append(join(directory_path, doc))
-	for subFolder in subfolders:
-		#Ignore the folders we don't need
-		if '.git' not in subFolder and '__pycache__' not in subFolder:
-			getSubFoldersForDirecory(subFolder)
-
-def handlePDF():
+def take_pdf_screenshot():
 
 	dir_path = os.path.dirname(os.path.realpath(__file__))
-	files = glob.glob(str(dir_path) + "/issues/*") 
+	files = glob.glob(str(dir_path) + "/export/issues/*") 
 	for x in files:
 		pdf_name = os.path.basename(x)
 		old_extension = os.path.splitext(pdf_name)[1]
@@ -60,71 +34,35 @@ def handlePDF():
 
 
 def processFile(enum):
-	getSubFoldersForDirecory(dir_path)
+	print("Processing file...")
+	# Start the loading animation
+	loading_thread, stop_loading = start_loading_animation()
+	jsonData = get_json_for_doc_directory(enum, doc_path)
+	file_name = "export/doc/processed_data.json"
+	with open(file_name, 'w') as json_file:
+	    	json.dump(jsonData, json_file, indent=4, sort_keys=True)
+	#Stop the loading animation
+	stop_loading()
+	loading_thread.join()
+	open_in_sublime(file_name)
+	
 
-	jsonData = {}
-	initApp(enum)
-	for path in documentsPaths:
-		#print(path)
-		menuName = ""
-		menuStyle = ""
-		arrayByForwardSlash = path.split('/', -1)
-		documentName = arrayByForwardSlash[-1]
-
-		for item in arrayByForwardSlash:
-			if "Menu" in item:
-				menuName = item.strip()
-
-		count = len(arrayByForwardSlash) - 2
-		
-		lastItem = arrayByForwardSlash[count]
-		#print(lastItem)
-		if "1." in lastItem:
-			menuStyle = "1"
-		if "Menu" in lastItem:
-			menuStyle = "1"
-
-		text = ''
-		imageUrl = ''
-		if '.doc' in path:	
-			extractedText = textract.process(path)
-			text = extractedText.decode()	
-		
-		otherDocumentsPath  = pathlib.Path(path).parent
-		otherDocuments = [f for f in listdir(otherDocumentsPath) if isfile(join(otherDocumentsPath, f))]
-		for otherDocPath in otherDocuments:
-
-			if '.jpg' in otherDocPath:
-				fullPath = str(otherDocumentsPath) + '/' + str(otherDocPath)
-				name = os.path.basename(otherDocPath)
-				imageUrl = uploadFile(name, fullPath)
-
-		if menuName not in jsonData.keys():	
-			#print(menuName)		
-			jsonData[menuName] = getJSON(documentName, text, imageUrl, menuStyle)
-		else:
-			currentData = jsonData[menuName]
-			#print(currentData)
-			newData = [currentData, getJSON(documentName, text, imageUrl, menuStyle)]
-			jsonData[menuName] = newData
-
-
-	#documentName = documentName.replace('.doc', '')
-	#jsonFile = documentName.replace(' ', '_')
-	with open("doc/processed_data.json", 'w') as json_file:
-	    json.dump(jsonData, json_file, indent=4, sort_keys=True)
-
-	print("Published file")    
-	#with open("doc/processed_data.json", 'w') as json_file:
-    #json.dump(jsonData, json_file, indent=4, sort_keys=True)
 
 def processIssue(enum):
 	print("Taking Screenshot")
-	handlePDF()
+	# Start the loading animation
+	loading_thread, stop_loading = start_loading_animation()
+	take_pdf_screenshot()
 	print("Uploading issue")
-	uploadIssue(enum)
-	print("Published issue")
-
+	pdfJson = upload_issue(enum, issues_path)
+	file_name = "export/issues/issue_uploaded.json"
+	with open(file_name, 'w') as json_file:
+	    	json.dump(pdfJson, json_file, indent=4, sort_keys=True)
+	open_in_sublime(file_name)
+	# Stop the loading animation
+	stop_loading()
+	loading_thread.join()
+	
 def processBoth(enum):
 	print("process Issue")
 	processIssue(enum)
